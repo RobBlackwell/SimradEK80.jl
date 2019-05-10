@@ -1,4 +1,4 @@
-# SimradEK60.jl
+# SimradEK80.jl
 
 [![Build Status](https://travis-ci.org/EchoJulia/SimradEK80.jl.svg?branch=master)](https://travis-ci.org/EchoJulia/SimradEK80.jl)
 
@@ -10,7 +10,8 @@
 
 Based on SimradRaw.jl, this project reads and intepretes Simrad EK80
 RAW files. WARNING it's little more than a prototype at the moment,
-and not nearly as mature as the EK60 sister project.
+and not nearly as mature as the EK60 sister project. The Sv calculations
+are WRONG!
 
 
 ## Example
