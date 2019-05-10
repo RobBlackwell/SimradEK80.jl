@@ -4,5 +4,6 @@ authors = ["Rob Blackwell <rob@robblackwell.com>"]
 version = "0.1.0"
 
 [deps]
+LibExpat = "522f3ed2-3f36-55e3-b6df-e94fee9b0c07"
 SimradRaw = "83a1bcd9-a884-567d-b532-90bac4ae8d51"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
