@@ -1,0 +1,8 @@
+name = "SimradEK80"
+uuid = "7dac5586-735f-11e9-0d42-095e7e90b0a6"
+authors = ["Rob Blackwell <rob@robblackwell.com>"]
+version = "0.1.0"
+
+[deps]
+SimradRaw = "83a1bcd9-a884-567d-b532-90bac4ae8d51"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
