@@ -3,7 +3,7 @@ module SimradEK80
 using SimradRaw
 using LibExpat
 
-export pings, Sv, at, al
+export pings, Sv, at, al, load
 
 struct EK80Ping
     channelid::String
@@ -92,6 +92,10 @@ end
 function al(pings::Array{EK80Ping,1})
     s = [al(ping) for ping in pings]
     hcat(s...)
+end
+
+function load(filename::AbstractString)
+    ps = collect(pings(filename))
 end
 
 end # module
